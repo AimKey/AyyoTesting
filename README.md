@@ -1,5 +1,2 @@
 # Testing 1  
-- Toi thay bai Main no nhieu comment qua nen toi quyet dinh xoa:
-1. Comments (Of course)
-2. Them huong dan chi tiet  
-Het.
+GitHub rất là tiện trong việc làm nhóm nhưng mà hiện tại tôi thấy nó hơi phức tạp nên tôi sẽ cân nhắc cái này sau
