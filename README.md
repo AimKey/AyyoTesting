@@ -1,3 +1,5 @@
-# AyyoTesting
-## Nghe nói github là 1 web rất quan trọng cho mọi lập trình viên và teamwwork nên tôi đã give it a try    
-Nên là qua kì thi này chúng ta sẽ làm quen =))
+# Testing 1  
+- Toi thay bai Main no nhieu comment qua nen toi quyet dinh xoa:
+1. Comments (Of course)
+2. Them huong dan chi tiet  
+Het.
