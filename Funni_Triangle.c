@@ -69,7 +69,7 @@ int main () {
         MiddlePos++; // Tang vi tri cua truc giua
         MiddleValue += 2; // Cai nay chac ez r ha
         spc -= 2; // Moi dong them mot xuong duoi thi ta chua it di 2 spc (1 cua so moi, 1 spc giua 2 so)
-        printf("\n");// Xuong dong
+        printf("\n");// Xuong dong.
     }
     return 0;
 }
