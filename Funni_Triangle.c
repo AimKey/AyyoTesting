@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<math.h>
 
-int PrintSpaces();
+void PrintSpaces();
 void PrintNum();
 
-int PrintSpaces(int n) {
+void PrintSpaces(int n) {
     for (int i = 1; i <= n; i++) {
         printf(" ");
     }
