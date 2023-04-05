@@ -3,7 +3,6 @@
 
 int PrintSpaces();
 void PrintNum();
-int Return1Num();
 
 int PrintSpaces(int n) {
     for (int i = 1; i <= n; i++) {
@@ -11,35 +10,26 @@ int PrintSpaces(int n) {
     }
 }
 
-int Return1Num(int n) {
-    int temp = n % 10;
-    return temp;
-}
-
 // Mau chot van de
 void PrintNum(int n, int MiddleValue, int MiddlePos) {
     int arr[50], count = 0;
     int j = n;
-    if (j >= 10) {
-        j = Return1Num(j);
-    }
+    
     for (int i = 0; i <= MiddlePos; i++) {
+        if (j >= 10) {
+            j = j % 10;
+        }
         printf("%d ", j);
         if (i < MiddlePos) {
             arr[count] = j;
             count++;
         }
         j++;
-        if (j >= 10) {
-            j = Return1Num(j);
-        }
     }
-    // In phan con lai cua tam giac
     for (int i = count - 1; i >= 0; i--) {
         printf("%d ", arr[i]);
     }
 }
-
 
 int main () {
     int n, spc;
@@ -50,7 +40,6 @@ int main () {
     int arr[50];
     for (int i = 1; i <= n; i++) {
         PrintSpaces(spc);
-        
         PrintNum(i, MiddleValue, MiddlePos);
         arr[0] = '\0';
         MiddlePos++;
