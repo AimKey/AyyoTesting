@@ -3,17 +3,11 @@
 
 int PrintSpaces();
 void PrintNum();
-int Return1Num();
 
 int PrintSpaces(int n) {
     for (int i = 1; i <= n; i++) {
         printf(" ");
     }
-}
-
-int Return1Num(int n) {
-    int temp = n % 10;
-    return temp;
 }
 
 // Mau chot van de
@@ -22,9 +16,9 @@ void PrintNum(int n, int MiddleValue, int MiddlePos) {
     int j = n;
     
     for (int i = 0; i <= MiddlePos; i++) {
-        if (j >= 10)
-        j = Return1Num(j);
-        
+        if (j >= 10) {
+            j = j % 10;
+        }
         printf("%d ", j);
         if (i < MiddlePos) {
             arr[count] = j;
